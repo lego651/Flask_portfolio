@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: normal;
+    font-size: 25px
+}
+h2 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #B0B1B3;
+}
+p {
+    font-size: 16px;
+    color: #7A7C80;
+}
+a, a:hover{
+    color: #7A7C80;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 7px;
+}
+
+
+.page {
+    background-color: #101214;
+    font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
+}
+
+
+.leftWrapper {
+    /*background-color: yellow;*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.leftContent {
+    height: 300px;
+    width: 300px;
+    margin-left: calc(100% - 350px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.personalLogo {
+    width: 185px;
+    height: 77px;
+    background-color: yellowgreen;
+}
+#openDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0F7F12;
+}
+
+.rightWrapper {
+    /*background-color: yellow;*/
+    height: 100vh;
+}
+.rightContent {
+    width: 500px;
+    height: 800px;
+    /*background-color: yellow;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+    color: white;
+    text-align: left;
+}
+h2 a{
+    font-weight: 500;
+    font-size: 15px;
+    color: #B0B1B3;
+}
+.articles {
+    margin-top: 30px;
+}
+.links {
+    margin-top: 30px;
+}
+.links a{
+    margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+    .leftWrapper {
+        height: 400px;
+    }
+    .leftContent {
+        margin: 30px auto;
+    }
+    .rightWrapper {
+
+    }
+    .rightContent {
+        height: 400px;
+        margin: 30px auto;
+        margin-left: 50px;
+    }
+}
